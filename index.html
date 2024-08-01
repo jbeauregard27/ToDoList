@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Temperature Unit Conversion</h1>
-    <h2>Input your temperature in Fahrenheit below</h2>
-    <input type="number" id="temp" />
-    <h2>Fahrenheit:___</h2>
-    <h2>Kelvin:___</h2>
-    <h2>Newton:___</h2>
-    <script src ="newtonconversion.js"></script>
+    <id class="fahr">Your Temperature in Fahreneheit: </id><input type="number" id="temp" placeholder="your temperature" />
+    <button id="convert">Convert</button>
+        <h2>Celsius:</h2> <p id="cels"></p>
+        <h2>Kelvin:</h2> <p id="kelv"></p>
+        <h2>Newton:</h2> <p id="newt"></p>
+            <script src="conversion.js"></script>
 </body>
+
 </html>
