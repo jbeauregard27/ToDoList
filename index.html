@@ -2,20 +2,34 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Temperature Unit Conversion</h1>
-    <id class="fahr">Your Temperature in Fahreneheit: </id><input type="number" id="temp" placeholder="your temperature" />
-    <button id="convert">Convert</button>
-        <h2>Celsius:</h2> <p id="cels"></p>
-        <h2>Kelvin:</h2> <p id="kelv"></p>
-        <h2>Newton:</h2> <p id="newt"></p>
-            <script src="conversion.js"></script>
+    <div class="title">
+        <h1>Temperature Unit Conversion</h1>
+        <id class="fahr">Your Temperature in Fahreneheit: </id><input type="number" id="temp"
+            placeholder="your temperature" />
+        <button id="convert">Convert</button>
+    </div>
+    <div class="conversions">
+        <div class="celsius">
+            <h2>Celsius:</h2>
+            <p id="cels"></p>
+        </div>
+        <div class="kelvin">
+            <h2>Kelvin:</h2>
+            <p id="kelv"></p>
+        </div>
+        <div class="newton">
+            <h2>Newton:</h2>
+            <p id="newt"></p>
+        </div>
+    </div>
+    <script src="conversion.js"></script>
 </body>
 
 </html>
