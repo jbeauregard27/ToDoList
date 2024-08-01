@@ -2,10 +2,10 @@
 let userTemp = document.getElementById("temp").value;
 
 let fahrenheit = userTemp;
-// Calculates Temperature in Kelvin from Celsius
-let kelvin = celsius + 273;
-//Calculates Temperature in Fahrenheit from Celsius
+// Calculates Temperature in Celsius from Fahrenheit
 let celsius = fahrenheit - 32 * 5 / 9;
+//Calculates Temperature in Kelvin from Celsius
+let kelvin = celsius + 273;
 fahrenheit = Math.floor(fahrenheit);
 //Calclulates Temperature in Newton from Celsius
 let newton = celsius * (33/100);
