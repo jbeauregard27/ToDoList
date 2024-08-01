@@ -1,6 +1,5 @@
 
 let userTemp = document.getElementById("temp").value;
-console.log('Input Your Temperature in Celsius:');
 
 let fahrenheit = userTemp;
 // Calculates Temperature in Kelvin from Celsius
